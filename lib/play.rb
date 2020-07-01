@@ -37,14 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-  while !over?(board)
+  9.times do
     turn(board)
-  end
-  if won?(board)
-    puts "Congratulations " + winner(board) + "!"
-  elsif draw?(board)
-    puts "Cat's Game!"
-  else
-    #do nothing
-  end
 end
+    play(board)
+  end
