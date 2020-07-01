@@ -44,6 +44,5 @@ def play(board)
 9.times do
   turn(board)
      counter += 1
-     display_board
-   end
+      end
 end
