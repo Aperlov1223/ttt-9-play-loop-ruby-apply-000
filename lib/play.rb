@@ -38,6 +38,6 @@ end
 # Define your play method below
 def play(board)
   9.times do
-    turn.play(board)
+    turn(board).play(board)
   end
 end
