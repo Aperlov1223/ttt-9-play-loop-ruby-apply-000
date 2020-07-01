@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   9.times do
-    self. :play(board)
+    self.play(board)
     turn(board)
   end
 end
